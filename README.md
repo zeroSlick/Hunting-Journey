@@ -12,7 +12,4 @@ PORT Scanning
     1.nmap
     2.hping2 / hping3    .... network scan and packet crafting
       type of scan
-      .....................................
-      .....................................
-      kal padhtee haiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-      16511635
+      165
