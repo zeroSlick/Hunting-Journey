@@ -13,8 +13,13 @@ Image OSINT
 │   └── Goal: Trace image origin or duplicates
 │
 ├── 3️.Geolocation Analysis
-│   ├── Tools: Google Maps, SunCalc, GeoGuessr, Mapillary(from facebook) , apple  maps , yandex , 
+│   ├── Tools: Google Maps, SunCalc, GeoGuessr, Mapillary(from facebook) , apple  maps , yandex (searchengine) , bindumax(it is a chinaa base server so use the vpn first), kartaview , 
 │   └── Goal: Identify location clues from visuals
+|   ├── Google Reverse Image Search (images.google.com)
+│   ├── TinEye (tineye.com)
+│   ├── Yandex Images (images.yandex.com)
+│   ├── Bing Visual Search
+│   └── PimEyes (for facial recognition)
 │
 ├── 4️.Image Forensics
 │   ├── Tools: FotoForensics, Forensically, AMP
@@ -31,3 +36,5 @@ Image OSINT
 └── 7️.Automation for Red Team
     ├── Tools: exiftool scripts, osintgram, theHarvester
     └── Goal: Automate data extraction and analysis
+
+**invid fake news plugin***  it is a plugin of google for image investigation
