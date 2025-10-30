@@ -38,3 +38,5 @@ Image OSINT
     └── Goal: Automate data extraction and analysis
 
 **invid fake news plugin***  it is a plugin of google for image investigation
+
+**EXIF viewer pro ** for metadata
