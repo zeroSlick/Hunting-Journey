@@ -641,3 +641,6 @@ Google Dorking — Detailed, Ethical Red-Team Guide (Tree Structure)
     ├── Not every engine supports every operator the same way — validate per search engine
     ├── Aggressive automation may trigger blocks or CAPTCHAs; prefer official APIs
     └── Dorking finds *publicly indexed* content only — it is not a replacement for active discovery tools in a permitted engagement
+
+
+lets do the practicalllllllsssss ....
