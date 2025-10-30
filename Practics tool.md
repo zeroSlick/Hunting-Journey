@@ -5,7 +5,7 @@ tools:-
 Image OSINT
 │
 ├── 1️.Metadata Analysis
-│   ├── Tools: ExifTool, Metapicz, Jeffrey’s EXIF Viewer
+│   ├── Tools: ExifTool, Metapicz, *Jeffrey’s EXIF Viewer*
 │   └── Goal: Extract hidden camera, GPS, timestamp info
 │
 ├── 2️.Reverse Image Search
