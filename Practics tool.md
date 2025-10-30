@@ -13,7 +13,7 @@ Image OSINT
 │   └── Goal: Trace image origin or duplicates
 │
 ├── 3️.Geolocation Analysis
-│   ├── Tools: Google Maps, SunCalc, GeoGuessr, Mapillary
+│   ├── Tools: Google Maps, SunCalc, GeoGuessr, Mapillary(from faceboot) , apple  maps
 │   └── Goal: Identify location clues from visuals
 │
 ├── 4️.Image Forensics
