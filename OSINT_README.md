@@ -15,7 +15,7 @@ what is google Dorking ..?
     to show information search engine do a lot of background work that when you click on the search button , you are presented with a set of precise and quality results that answers your queries.
 
     that background works is devided  by SCO search engine optimization
-        1.crawling :-
+        1.crawling :-(best example :- liberary  and student )
                     it is a software program that are responsible for finding information that is publically avaiable on the internet 
 
             this programs scans the web create a list od all the websites
