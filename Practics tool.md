@@ -1,5 +1,9 @@
 by sofia santos (images & videos ) :-   https://gralhix.com/  
 
+youtube metadata :-https://mattw.io/youtube-metadata/
+
+guide for reverse image:- https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/
+
 tools:-
 
 Image OSINT
