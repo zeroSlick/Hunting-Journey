@@ -7,3 +7,7 @@ method 3:-
 method 4:-
         from:username to:username2
         from:username to:*           (find out the communication between two persons using the tags methods and tweets which helps to get the subject  ) 
+
+method 5: 
+        filteration :---  
+                        filter:(con)
