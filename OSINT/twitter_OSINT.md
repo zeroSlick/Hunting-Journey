@@ -10,4 +10,7 @@ method 4:-
 
 method 5: 
         filteration :---  
-                        filter:(con)
+                        filter:(content type)
+method 6 
+        logic ----> and / or logic
+                    ex... @user1..and..@user2
