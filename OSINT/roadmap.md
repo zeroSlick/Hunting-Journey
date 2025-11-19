@@ -1,76 +1,118 @@
-🌳 RED TEAM ROADMAP (BASIC → ADVANCED → PRO)
+🟢 1️⃣ FOUNDATIONS (ROOTS)
+│
+├── Networking Deep Dive
+│   ├─ OSI, TCP/IP, DNS, DHCP, VPN, Subnetting
+│   ├─ Network Traffic Analysis (Wireshark)
+│   ├─ Firewall / NAT basics
+│   └─ 🎓 THM: Intro to Networking, Wireshark Labs
+│
+├── OS Mastery
+│   ├─ Linux Terminal + File Permissions + Shell Scripting
+│   ├─ Windows CMD, PowerShell, Event Logs, Registry
+│   ├─ Windows Internals (Processes, Services, ACLs)
+│   └─ 🎓 THM Linux + Windows Fundamentals, Windows Internals YouTube
+│
+├── Programming & Scripting
+│   ├─ Python for Security (automation, payloads, parsing logs)
+│   ├─ Bash scripting
+│   ├─ PowerShell advanced scripts
+│   ├─ C/C++ basics for exploit dev
+│   └─ 🎓 FreeCodeCamp Python, THM Scripting Rooms
+│
+└── Cryptography Basics
+    ├─ Hashing, Symmetric & Asymmetric, Certificates
+    ├─ Encryption/Decryption basics for C2
+    └─ 🎓 THM Cryptography Labs
 
-🟢 1. FOUNDATIONS
-│
-├── 📡 1.1 Networking
-│   ├─ OSI, TCP/IP, DNS, DHCP, Subnetting
-│   └─ 🎓 THM: Introduction to Networking
-│
-├── 💻 1.2 OS Fundamentals
-│   ├─ Linux (terminal, permissions)
-│   ├─ Windows (CMD, PowerShell)
-│   └─ 🎓 THM: Linux Fundamentals + Windows Fundamentals
-│
-└── 💡 1.3 Programming & Scripting
-    ├─ Python (automation, payload basics)
-    ├─ Bash / PowerShell
-    └─ 🎓 THM: Python for Cybersecurity
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟡 2. CYBERSECURITY & ETHICAL HACKING
+🟡 2️⃣ ETHICAL HACKING & SECURITY CORE
 │
-├── 🎯 2.1 CEH-Level Concepts
-│   ├─ Recon, Scanning, Exploitation Basics
-│   └─ 🎓 THM: Pre-Security → Junior Penetration Tester
+├── Recon & Footprinting
+│   ├─ OSINT (Shodan, Maltego, Google Dorking)
+│   ├─ Network Scanning (Nmap, Masscan)
+│   └─ 🎓 THM OSINT Path
 │
-└── 🧪 2.2 Tools Usage
-    ├─ Nmap, Wireshark, Burp Suite, Hydra
-    └─ 🎓 HTB: Starting Point Labs
+├── Vulnerability Assessment
+│   ├─ Nessus / OpenVAS
+│   ├─ Manual Exploit Discovery
+│   └─ 🎓 TryHackMe Vulnerability Rooms
+│
+├── Exploitation Basics
+│   ├─ Metasploit Framework
+│   ├─ Manual Buffer Overflow (Beginner)
+│   └─ 🎓 THM Jr Penetration Tester
+│
+└── Defensive Awareness
+    ├─ How SOC detects attacks
+    ├─ SIEM basics (Splunk / ELK)
+    └─ 🎓 THM Security Operations Rooms
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🟠 3. RED TEAM FUNDAMENTALS
-│
-├── 🏰 3.1 Active Directory Attacks
-│   ├─ Kerberos, LDAP, Pass-the-Hash, Kerberoasting
-│   └─ 🎓 THM: Attacktive Directory
-│
-├── 🪜 3.2 Privilege Escalation
-│   ├─ Windows & Linux PrivEsc, Persistence
-│   └─ 🎓 THM: Windows PrivEsc + Linux PrivEsc
-│
-└── 🛰 3.3 Post-Exploitation & C2
-    ├─ Empire, Covenant, (Basic Cobalt Strike)
-    └─ 🎓 YT: CyberMentor - Red Team Basics
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🔴 4. ADVANCED RED TEAMING
+🟠 3️⃣ RED TEAM FUNDAMENTALS
 │
-├── 💣 4.1 Payload & Malware Dev
-│   ├─ AV Bypass, Obfuscation, Custom Payloads
-│   └─ 🎓 THM: Malware Development Path
+├── Active Directory Attacks
+│   ├─ Kerberoasting, Pass-the-Hash, DCSync
+│   ├─ BloodHound analysis
+│   └─ 🎓 THM Attacktive Directory + BloodHound Labs
 │
-├── 🎭 4.2 Social Engineering
-│   ├─ SET Toolkit, Fake Login Pages
-│   └─ 🎓 THM: Phishing Room
+├── Privilege Escalation
+│   ├─ Windows & Linux PrivEsc
+│   ├─ Persistence & Lateral Movement
+│   └─ 🎓 THM Windows + Linux PrivEsc Rooms
 │
-└── 🔌 4.3 Physical / USB Attacks
-    ├─ Rubber Ducky, BadUSB
-    └─ 🎓 YouTube: Hak5 Channel
+├── Post-Exploitation & C2
+│   ├─ Empire, Covenant, Basic Cobalt Strike
+│   ├─ Keylogger, Screenshot, Credential Harvesting
+│   └─ 🎓 CyberMentor YT: Red Team Basics
+│
+└── Steganography & Covert Channels
+    ├─ Data hiding, encrypted C2
+    └─ 🎓 THM Steganography Rooms / CTFs
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🔥 5. EXPERT RED TEAM OPS
+
+🔴 4️⃣ ADVANCED RED TEAMING
 │
-├── 🧠 5.1 Exploit Development
+├── Custom Payload Development
+│   ├─ Python, PowerShell, C#, DLL injection
+│   ├─ AV/EDR bypass
+│   ├─ Polymorphic payloads
+│   └─ 🎓 THM Malware Development, Offensive Security Labs
+│
+├── Social Engineering
+│   ├─ Email phishing, spear phishing
+│   ├─ USB drop / physical attack scenarios
+│   └─ 🎓 THM Phishing Rooms, Social Engineer Toolkit Labs
+│
+├── Exploit Development
 │   ├─ Reverse Engineering (Ghidra, IDA Pro)
-│   ├─ Buffer Overflow → Custom CVE Exploit
-│   └─ 🎓 THM: Buffer Overflow Prep + HTB Exploit Labs
+│   ├─ Buffer Overflow, Format String, Heap Exploits
+│   └─ 🎓 THM Buffer Overflow Prep, HTB Exploit Dev Labs
 │
-└── ⚔️ 5.2 Full Red Team Operations
-    ├─ MITRE ATT&CK Emulation
-    ├─ Lateral Movement, Command & Control
-    ├─ Red Team Reporting
-    └─ 🎓 Zero2Automated → Red Team Ops
-       🔹 GitHub: CyberWarDog AD Lab
+└── Physical & USB Attacks
+    ├─ Rubber Ducky, Bash Bunny
+    ├─ HID attacks, Device masquerading
+    └─ 🎓 Hak5 YouTube, THM Physical Red Team Labs
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🏁 FINAL GOAL → Red Team Specialist / Offensive Security Engineer
+
+🔥 5️⃣ EXPERT LEVEL & OPERATIONAL RED TEAM
+│
+├── Advanced C2 & Evasion
+│   ├─ Custom C2 channels, multi-stage payloads
+│   ├─ Encrypted tunnels & protocol mimicry
+│   └─ 🎓 Zero2Automated, GitHub Red Team Ops
+│
+├── Full Red Team Simulation
+│   ├─ MITRE ATT&CK emulation
+│   ├─ Simulated full attack chain
+│   ├─ Reporting & documentation
+│   └─ 🎓 CyberWarDog AD Lab, HTB Pro Labs
+│
+├── Offensive Security Certifications
+│   ├─ OSCP, eCPPT, CRTO
+│   └─ 🎓 Free labs + practice VMs
+│
+└── Continuous Skill Enhancement
+    ├─ Capture The Flag (CTF)
+    ├─ HackTheBox Challenges
+    ├─ Offensive Security Community / GitHub Labs
+    └─ 🎓 VulnHub, TryHackMe Advanced Rooms
